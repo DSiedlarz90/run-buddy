@@ -1,3 +1,4 @@
+/* genreal styling */
 * {
     margin: 0;
     padding: 0;
@@ -5,17 +6,16 @@
 }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
+    
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to a <header> */
+/* header style start */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
 }
-
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -23,25 +23,20 @@ header h1 {
     margin: 0;
     display: inline;
 }
-
 header a {
     color: #fce138;
 }
-
 header a {
     text-decoration: none;
     color: #fce138;
 }
-
 header nav {
     float: right;
     margin: 7px 0;
 }
-
 header nav ul li {
     display: inline;
 }
-
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
@@ -53,20 +48,17 @@ footer {
     width: 100%;
     padding: 40px 35px;
 }
-
 footer h2 {
     display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
-
 footer div {
     float: right;
     line-height: 1.5;
     text-align: right;
 }
-
 footer a {
     color: #024e76;
 }
@@ -74,6 +66,7 @@ footer a {
 section{
     padding: 60px;
 }
+/* header style end */
 
 /* hero style start*/
 .hero {
@@ -130,7 +123,6 @@ section{
 .intro {
     text-align: center;
 }
-
 .intro p {
     line-height: 1,7;
     color: #39a6b2;
@@ -138,37 +130,30 @@ section{
     font-size: 20px;
     margin: 0 auto;
 }
-
 .steps {
     text-align: center;
     background:  #fce138;
 }
-
 .steps div {
     margin-bottom: 80px;
 }
-
 .steps img {
     width: 15%;
     margin: 10px 0;
 }
-
 .steps h3 {
     color: #024e76;
     font-size: 46px;
     margin-top: 10px;
 }
-
 .steps p {
     color: #024e76;
     font-size: 46px;
     margin-top: 10px;
 }
-
 .steps span {
     font-size: 38px;
 }
-
 .section title {
     font-size: 55px;
     color: #024e76;
@@ -177,11 +162,50 @@ section{
     display: inline-block;
     border-bottom: 3px solid;
 }
-
 .primary-border {
     border-color: #fce138
 }
-
 .secondary-border {
     border-color: #39a6b2
+}
+/* intro style end */
+
+/* trainers style start */
+.trainers {
+    text-align: center;
+}
+.trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto
+}
+.trainer img {
+    width: 35%;
+    float: left;
+}
+.trainer-bio{
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+.trainer-bio p {
+    font-size: 17px;
+    line-height: 1.3;
 }
